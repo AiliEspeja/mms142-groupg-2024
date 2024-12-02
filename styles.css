@@ -8,14 +8,14 @@ body, h1, h2, p, ul {
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #4b4b53;
+    background-color: #f0ede4;
     color: #333;
     padding: 10px;
   }
   
   header {
-    background-color: #56a76a;
-    color: white;
+    background-color: white;
+    color:#56a76a;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
@@ -38,8 +38,8 @@ body, h1, h2, p, ul {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: grey;
   }
 
 .button {
