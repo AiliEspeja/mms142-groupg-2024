@@ -2,6 +2,7 @@
 ## About Website / Title
 a short description on our project 
 ## Members
+Arnaldo Figueras
 add member names
 ## Additional Descriptions
 another description
