@@ -203,6 +203,77 @@ p {
     margin-bottom: 20px;
 }
 
+/* BANNER CSS UPDATE - Banners for the Individual Pages */ 
+
+.main-container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.banner-area {
+  width: 100%;
+  height: 40vh;
+}
+
+.banner-image {
+  width: 100%;
+  height: 40vh;
+  background-image: url(pexels-luis-gomes-166706-546819.jpg);
+  background-size: cover;
+  background-position:centercenter;
+  top: 50px;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+
+.banner-image:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity:.7;
+  z-index: -1;
+}
+
+.banner-area h2{
+  padding-top: 20%;
+  font-size: 40px;
+  color: white;
+  font-family: 'Outfit';
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.content-area {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background: #fbf1e8;
+  top: 300px;
+
+}
+
+.content-area h2{
+  font-family: 'Outfit';
+  font-size: 30px;
+  font-weight: 650;
+  color: #537952;
+  margin-bottom: 25px;
+}
+ 
+.content-area p {
+  font-size: 20px;
+  color: #353a40;
+  margin-bottom: 20px;
+}
+
+/* END OF BANNER CONTENT */
+
 
 .footer {
     background-color: #59a55a;
