@@ -7,6 +7,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
+<style> /* Testing if this fixes the tab button issue*/
+    /* Tab links */
+    .tab-links a {
+      display: inline-block;
+      border-radius: 5px;
+      padding: 10px 20px;
+      background-color: #9dd49d;
+      border: 1px solid #9dd49d;
+      text-decoration: none;
+      margin-right: -1px;
+      margin-bottom: 5px;
+      color: black;
+    }
+
+
+    .tab-links a:hover {
+      background-color: #59a55a;
+    }
+
+
+
+    /* Tab content */
+    .tab-content {
+      display: none;
+      padding: 16px;
+      border: 1px solid #9dd49d;
+      border-top: none;
+    }
+
+    /* Show the targeted tab */
+    .tab-content:target {
+      display: block;
+    }
+</style>
+    
 <body>
   <header> 
      <nav>
@@ -46,9 +82,6 @@ It has become a staple in so many lives. Southeast Asians rely on Grab for every
   </section>
   
   <hr class="solid">
-
-  
-
 </head>
   
 <h1> Explore </h1>
