@@ -16,6 +16,7 @@ body, h1, h2, h3, p, ul {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f0ede4;
+    color: #333;
     padding: 10px;
   }
   
@@ -34,11 +35,12 @@ h1 {
     font-weight: 650;
     color: #537952;
     margin-bottom: 25px;
+    padding-top: 100px; /*temporary solution*/
 }
 
 h2 {
     font-family: 'Outfit';
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 450;
     color: #59a55a;
     margin-bottom: 25px;
@@ -47,15 +49,14 @@ h2 {
 
 h3 {
   font-family: 'Outfit';
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 450;
-  color: #698a69;
+  color: #698a69
 }
 
 p {
     font-size: 15px;
     color: #353a40;
-    font-weight: 200;
     margin-bottom: 20px;
 }
 
@@ -331,9 +332,12 @@ nav .menu-bar {
       color: black;
     }
 
+
     .tab-links a:hover {
       background-color: #59a55a;
     }
+
+
 
     /* Tab content */
     .tab-content {
