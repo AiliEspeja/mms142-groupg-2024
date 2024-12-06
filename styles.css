@@ -8,7 +8,6 @@
 
 /*START OF GENERAL CODE*/
 body, h1, h2, h3, p, ul {
-    margin: 10px;
     padding: 0;
   }
   
@@ -35,7 +34,7 @@ h1 {
     font-weight: 650;
     color: #537952;
     margin-bottom: 25px;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 h2 {
