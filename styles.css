@@ -317,7 +317,7 @@ nav .menu-bar {
   .banner-image-outcomes {
   width: 100%;
     height: 40vh;
-    background-image: url(homepage-images/distech-banner.jpg);
+    background-image: url(homepage-images/distech-banner.jpg); /* SAME BANNER AS DISTECH */
     background-size: cover;
     background-position:center center;
     top: 50px;
@@ -434,6 +434,13 @@ nav .menu-bar {
   margin: 40px;
   max-width: 800px;
 }
+
+/* START OF OUTCOMES INFO CONTAINER*/
+.outcomes-info {
+  margin: 40px;
+  max-width: 800px;
+}
+
 
 /* NEXT + PREVIOUS BUTTONS */ /* COPIED FROM ERIN'S homepage.css */
 .button-container {
