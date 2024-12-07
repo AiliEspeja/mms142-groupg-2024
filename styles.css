@@ -315,11 +315,28 @@ nav .menu-bar {
   /* BANNER FOR OUTCOMES */
 
   .banner-image-outcomes {
-  /* pending */
+  width: 100%;
+    height: 40vh;
+    background-image: url(homepage-images/distech-banner.jpg);
+    background-size: cover;
+    background-position:center center;
+    top: 50px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
   }
 
   .banner-image-outcomes:after {
-  /* pending */
+  content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgb(9, 13, 10);
+    opacity:.6;
+    z-index: -1;
   }
 
 /*BANNER TEXT - H3 */
