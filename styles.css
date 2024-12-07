@@ -323,22 +323,15 @@ nav .menu-bar {
   }
 
 /*BANNER TEXT - H3 */
-.banner-area h3{ /*TEXT ON TOP OF THE BANNER*/
-  padding-top: 15%;
-  margin-left: 40px;
-  margin-right:40px;
-  font-size: clamp(2rem,8vw,4rem);
-  font-weight: 700;
-}
-
-.banner-area h2{
-  padding-top: 20%;
-  font-size: 40px;
+.banner-area h3{
+  padding-top: 10%;
+  font-size: clamp(4rem, 7vw, 8rem);
   color: white;
   font-family: 'Outfit';
-  text-transform: uppercase;
-  text-align: center;
-  transition:transform 0.3s ease;
+  text-transformation: 0.3s ease;
+  font-weight: 700;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .banner-area h3:hover {
