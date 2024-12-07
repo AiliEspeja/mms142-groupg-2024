@@ -395,3 +395,87 @@ nav .menu-bar {
   margin: 40px;
   max-width: 800px;
 }
+
+/* NEXT + PREVIOUS BUTTONS */ /* COPIED FROM ERIN'S homepage.css */
+.button-container {
+  padding-top: 10vh;
+  height: 50px;
+  background-color: hsla(30, 100%, 50%, 0.0);
+  position: relative;
+  padding-bottom: 100px;
+}
+.button-container ul {
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  gap: 20px; 
+}
+.button-container ul li {
+  width: 50px;
+  height: 50px;
+  background: #59a55a;
+  border-radius: 50%; 
+  transition: .5s;
+}
+.button-container ul li:hover {
+  background: #353a40;
+}
+.button-container ul li span{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 4px solid #fbf1e8;
+  transition: .5s;
+}
+.button-container ul li.next span {
+  top: 50%;
+  right: 16%;
+  transform: translateY(-50%) rotate(-45deg);
+  border-left: none;
+  border-top: none;
+}
+.button-container ul li.next:hover span {
+  right: 12%;
+}
+.button-container ul li.next span::before {
+  content: '';
+  position: absolute;
+  width: 19.9px;
+  height: 4px;
+  background: #fbf1e8;
+  transform-origin: right;
+  transform: rotate(45deg) translate(0, 12.73px) scaleX(0);
+  transition: .5s; 
+}
+.button-container ul li.next:hover span::before {
+  transform: rotate(45deg) translate(0, 12.73px) scaleX(1);
+}
+.button-container ul li.prev span {
+  top: 50%;
+  left: 16%;
+  transform: translateY(-50%) rotate(-45deg);
+  border-right: none;
+  border-bottom: none;
+}
+.button-container ul li.prev:hover span {
+  left: 12%;
+}
+.button-container ul li.prev span::before {
+  content: '';
+  position: absolute;
+  width: 19.9px;
+  height: 4px;
+  background: #fbf1e8;
+  transform-origin: left;
+  transform: rotate(45deg) translate(-1.5px, -1.43px) scaleX(0);
+  transition: .5s; 
+}
+.button-container ul li.prev:hover span::before {
+  transform: rotate(45deg) translate(-1.5px, -1.43px) scaleX(1);
+}
+
