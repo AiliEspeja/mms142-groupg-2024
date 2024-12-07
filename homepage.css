@@ -217,13 +217,13 @@ p {
 }
 .button-container ul li.next span {
     top: 50%;
-    right: 16%;
+    right: 40%;
     transform: translateY(-50%) rotate(-45deg);
     border-left: none;
     border-top: none;
 }
 .button-container ul li.next:hover span {
-    right: 12%;
+    right: 30%;
 }
 .button-container ul li.next span::before {
     content: '';
