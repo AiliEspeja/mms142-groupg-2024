@@ -328,7 +328,9 @@ nav .menu-bar {
   font-size: clamp(4rem, 7vw, 8rem);
   color: white;
   font-family: 'Outfit';
-  text-transformation: 0.3s ease;
+  text-transform: uppercase;
+  text-align: center;
+  transition: transform 0.3s ease;
   font-weight: 700;
   padding-left: 10%;
   padding-right: 10%;
@@ -355,12 +357,13 @@ nav .menu-bar {
   position: relative;
   background: #fbf1e8;
   opacity: 100%;
-  top: 150px;
+  top: 60px;
   margin: auto;
   margin-bottom: 30px;
   padding: 20px;
   border-radius: 50px;
   box-shadow: 0px 0px 30px 15px black;
+  bottom: 50px;
 }
 
 .content-area-2 {
