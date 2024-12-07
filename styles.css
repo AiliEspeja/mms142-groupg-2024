@@ -525,7 +525,7 @@ nav .menu-bar {
   text-align: justify;
   width: 100%;
   height: auto;
-  padding-top: 105px; padding-bottom: 30px; padding-left: 130px; padding-right: 130px;
+  padding-top: 105px; padding-bottom: 20px; padding-left: 250px; padding-right: 250px;
   
 }
 .reference-content h1 {
@@ -537,7 +537,7 @@ nav .menu-bar {
 }
 
 .reference-content p {
-  font-size: 20px;
+  font-size: 18px;
   color: #353a40;
   margin-bottom: 30px;
 }
