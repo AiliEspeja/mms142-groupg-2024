@@ -484,3 +484,30 @@ nav .menu-bar {
   transform: rotate(45deg) translate(-1.5px, -1.43px) scaleX(1);
 }
 
+/* REFERENCE LIST */
+.reference-content {
+  display: inline-block;
+  background-color: #fbf1e8;
+  text-align: justify;
+  width: 100%;
+  height: auto;
+  padding-top: 105px; padding-bottom: 30px; padding-left: 130px; padding-right: 130px;
+  
+}
+.reference-content h1 {
+  font-family: 'Outfit';
+  font-size: 40px;
+  font-weight: 650;
+  color: #537952;
+  margin-bottom: 25px;
+}
+
+.reference-content p {
+  font-size: 20px;
+  color: #353a40;
+  margin-bottom: 30px;
+}
+
+.reference-content i {
+  font-style: italic;
+}
