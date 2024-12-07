@@ -395,38 +395,3 @@ nav .menu-bar {
   margin: 40px;
   max-width: 800px;
 }
-
-/* START OF TAB-RELATED CODE FOR GRAB*/
-
-
-    /* Tab links */
-    .tab-links a {
-      display: inline-block;
-      border-radius: 5px;
-      padding: 10px 20px;
-      background-color: #9dd49d;
-      border: 1px solid #9dd49d;
-      text-decoration: none;
-      margin-right: -1px;
-      margin-bottom: 5px;
-      color: black;
-    }
-
-    .tab-links a:hover {
-      background-color: #59a55a;
-    }
-
-    /* Tab content */
-    .tab-content {
-      display: none;
-      padding: 16px;
-      border: 1px solid #9dd49d;
-      border-top: none;
-    }
-
-    /* Show the targeted tab */
-    .tab-content:target {
-      display: block;
-    }
-
-/* END OF TAB-RELATED CODE*/
