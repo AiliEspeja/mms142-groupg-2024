@@ -338,8 +338,10 @@ nav .menu-bar {
   transform: scale(1.1);
 }
 
-.page-title-grab {
-  font-size: clamp(4rem,10vw,7rem);
+/* Special value just to fix the banner text for distech page */
+.banner-text-distech h3{
+  display: grid;
+  font-size: clamp(4rem,4vw,6rem);
 }
 
 /* START OF CONTENT AREA - the main area with the information on it */
