@@ -70,7 +70,7 @@ nav .menu-bar {
     z-index: 999;
     border-radius: 5px;
     padding: 10px 0;
-    box-shadow: 0 5px 10px rgba(0,0,0,.3);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
 }
 .sub-menu ul {
     display: block;
