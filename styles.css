@@ -175,7 +175,7 @@ nav .menu-bar {
 .menu-bar ul li:hover .sub-menu,
 .sub-menu:hover {
     display: block;
-    margin-top: 9px;
+    margin-top: 7.5px;
     margin-left: 0px;
 }
 .menu-bar ul li:hover .sub-menu ul {
