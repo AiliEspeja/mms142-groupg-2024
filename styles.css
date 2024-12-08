@@ -525,6 +525,31 @@ nav .menu-bar {
   transform: rotate(45deg) translate(-1.5px, -1.43px) scaleX(1);
 }
 
+/* Prev Button for Oucomes Page */
+.button-container ul li.prev2 span {
+  top: 50%;
+  left: 39%;
+  transform: translateY(-50%) rotate(-45deg);
+  border-right: none;
+  border-bottom: none;
+}
+.button-container ul li.prev2:hover span {
+  left: 29%;
+}
+.button-container ul li.prev2 span::before {
+  content: '';
+  position: absolute;
+  width: 19.9px;
+  height: 4px;
+  background: #fbf1e8;
+  transform-origin: left;
+  transform: rotate(45deg) translate(-1.5px, -1.43px) scaleX(0);
+  transition: .5s; 
+}
+.button-container ul li.prev2:hover span::before {
+  transform: rotate(45deg) translate(-1.5px, -1.43px) scaleX(1);
+}
+
 /* REFERENCE LIST */
 .reference-content {
   display: inline-block;
