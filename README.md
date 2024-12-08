@@ -1,8 +1,23 @@
 # mms142-groupg-2024
-## About Website / Title
-a short description on our project 
+## Grab as a Disruptive Technology
+
 ## Members
-Arnaldo Figueras
-add member names
-## Additional Descriptions
-another description
+ Leader
+Arnaldo Jr Figueras
+
+Research
+Ma Jennifer Echavari
+Aileen Evangelista
+Aeryel Sofia Favorada
+Alliyah Stephanie Francisco
+Maria Paulene Francisco
+
+Writing
+Cheyeanne Mae Elipse
+Audrey Shane Flor
+Maricris Fidelis
+
+Coding
+Jeorgina Raihana Ebora
+Aili Ces Espeja
+Erin Abriele Evangelista 
