@@ -150,7 +150,7 @@ nav .menu-bar {
     z-index: 999;
     border-radius: 5px;
     padding: 10px 0;
-    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.4);
 }
 .sub-menu ul {
     display: block;
@@ -175,7 +175,7 @@ nav .menu-bar {
 .menu-bar ul li:hover .sub-menu,
 .sub-menu:hover {
     display: block;
-    margin-top: 13px;
+    margin-top: 10.5px;
     margin-left: 0px;
 }
 .menu-bar ul li:hover .sub-menu ul {
